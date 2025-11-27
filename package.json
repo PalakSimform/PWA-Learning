@@ -1,0 +1,36 @@
+{
+  "name": "pwa-demo",
+  "version": "1.0.0",
+  "description": "Complete Progressive Web App demo with all features",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8000 -c-1 -o",
+    "dev": "npx http-server -p 8000 -c-1 -o",
+    "serve": "npx http-server -p 8000",
+    "https": "npx http-server -p 8000 -S -C cert.pem -K key.pem",
+    "ngrok": "npx ngrok http 8000",
+    "test": "echo \"Open http://localhost:8000 in your browser\" && npm start"
+  },
+  "keywords": [
+    "pwa",
+    "progressive-web-app",
+    "service-worker",
+    "manifest",
+    "offline",
+    "cache",
+    "indexeddb",
+    "push-notifications",
+    "background-sync"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/pwa-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/pwa-demo/issues"
+  },
+  "homepage": "https://github.com/yourusername/pwa-demo#readme"
+}
